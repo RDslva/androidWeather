@@ -27,8 +27,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Get the current location
+        // TODO: Build method to check for location permission
+        // TODO: Build method to get the current location on a schedule
+        // TODO: Figure out how to check location when user is not using app
+        // TODO: Get current weather data should be called on the schedule
 
         // Get current weather data for given location
+        // TODO: Build class for weather data
+        // WeatherData.getCurrentWeatherData()
+        // TODO: Get current weather data should check for any data stored in database
+        // TODO: Get current weather data should get new copy of weather data when app launches
 
 
         // Needed for multi-page app
