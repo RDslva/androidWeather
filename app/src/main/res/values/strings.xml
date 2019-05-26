@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">androidWeather</string>
+    <string name="title_todayForecast">Today</string>
+    <string name="title_weekForecast">This Week</string>
+</resources>
