@@ -2,4 +2,11 @@
     <string name="app_name">androidWeather</string>
     <string name="title_todayForecast">Today</string>
     <string name="title_weekForecast">This Week</string>
+    <string name="currentLocation">Sample Location</string>
+
+
+    <string name="currentTemp">103</string>
+
+    <string name="label_tempFeelsLike">Feels Like</string>
+    <string name="label_tempCurrent">Temperature</string>
 </resources>

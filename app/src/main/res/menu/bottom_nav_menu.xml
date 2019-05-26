@@ -3,12 +3,12 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/ic_today_black_24dp"
         android:title="@string/title_todayForecast" />
 
     <item
         android:id="@+id/navigation_weekForecast"
-        android:icon="@drawable/ic_notifications_black_24dp"
+        android:icon="@drawable/ic_view_week_black_24dp"
         android:title="@string/title_weekForecast" />
 
 </menu>
