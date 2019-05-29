@@ -1,9 +1,12 @@
-package ca.robertdasilva.androidweather
+package ca.robertdasilva.androidweather.UI
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
+import androidx.appcompat.app.AppCompatDelegate.setDefaultNightMode
+import ca.robertdasilva.androidweather.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,6 +26,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Update this to pull from a settings parameter
+        // Have the option to set
+        // - Light
+        // - Dark
+        // - System default
+        // For P and earlier, instead of -System default, provide
+        // - Set by battery saver
+        setDefaultNightMode(MODE_NIGHT_FOLLOW_SYSTEM)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 

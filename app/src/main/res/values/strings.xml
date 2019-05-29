@@ -6,7 +6,23 @@
 
 
     <string name="currentTemp">103</string>
-
+    <!-- Label Strings inside app -->
     <string name="label_tempFeelsLike">Feels Like</string>
     <string name="label_tempCurrent">Temperature</string>
+    <string name="label_humidity">Humidity</string>
+    <string name="label_precip">Precipitation</string>
+    <string name="label_precipProb">Chance of Precipitation</string>
+    <string name="label_windSpeed">Wind Speed</string>
+    <string name="label_pressure">Pressure</string>
+    <string name="label_uv">UV Index</string>
+    <string name="label_visibility">Visibility</string>
+
+
+    <!-- Open Source Credits -->
+    <string name="label_openSource">Open Source Projects:
+        Google Material Icons
+        https://github.com/google/material-design-icons
+
+
+        </string>
 </resources>
