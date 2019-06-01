@@ -1,11 +1,11 @@
 package ca.robertdasilva.androidweather.UI
 
 import android.os.Bundle
+import android.view.View
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
-import androidx.appcompat.app.AppCompatDelegate.setDefaultNightMode
+import androidx.appcompat.app.AppCompatDelegate.*
 import ca.robertdasilva.androidweather.R
 
 class MainActivity : AppCompatActivity() {
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         // - System default
         // For P and earlier, instead of -System default, provide
         // - Set by battery saver
-        setDefaultNightMode(MODE_NIGHT_FOLLOW_SYSTEM)
+        //setDefaultNightMode(MODE_NIGHT_FOLLOW_SYSTEM)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -53,8 +53,24 @@ class MainActivity : AppCompatActivity() {
         // Needed for multi-page app
         //val navView: BottomNavigationView = findViewById(R.id.nav_view)
 
-        textMessage = findViewById(R.id.message)
+        // textMessage = findViewById(R.id.message)
         // Needed for multi-page app
         //navView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
     }
+    fun setLight(view: View) {
+        setDefaultNightMode(MODE_NIGHT_NO)
+        this.setTheme(R.style.Light)
+        this.setContentView(R.layout.activity_main)
+    }
+
+    fun setDark(view: View) {
+        setDefaultNightMode(MODE_NIGHT_YES)
+        this.setTheme(R.style.DayNight)
+        this.setContentView(R.layout.activity_main)
+
+    }
+    fun setSys(view: View) {
+        setDefaultNightMode(MODE_NIGHT_FOLLOW_SYSTEM)
+    }
+
 }

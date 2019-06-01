@@ -4,4 +4,31 @@
     <color name="colorPrimary">#2196F3</color>
     <color name="colorPrimaryDark">#283593</color>
     <color name="colorAccent">#4CAF50</color>
+
+
+
+
+    <!-- NORD THEME -->
+    <!-- Polar Night -->
+    <color name="nordBackground">#2E3440</color> <!-- Background -->
+    <color name="nordBackgroundElevated">#3B4252</color> <!-- Background Elevated -->
+    <color name="nord2">#434C5E</color> <!-- Selection, Text Highlighting -->
+    <color name="nordNormal">#4C566A</color> <!-- Code comments -->
+    <!-- Snow Storm -->
+    <color name="nord4">#D8DEE9</color> <!-- Text caret -->
+    <color name="nordTextSecondary">#E5E9F0</color> <!-- Text, low visual attention -->
+    <color name="nordTextPrimary">#ECEFF4</color> <!-- Text, high visual attention -->
+    <!-- Frost -->
+    <color name="nordColorPrimary">#8FBCBB</color> <!-- Primary color, high attention -->
+    <color name="nordColorPrimaryDark">#88C0D0</color> <!-- Primary color -->
+    <color name="nordColorSecondary">#81A1C1</color> <!-- Secondary color -->
+    <color name="nordColorTertiary">#5E81AC</color> <!-- Tertiary color -->
+    <!-- Aurora -->
+    <color name="nordError">#BF616A</color> <!-- Errors -->
+    <color name="nordDangerous">#D08770</color> <!-- Dangerous -->
+    <color name="nordWarn">#EBCB8B</color> <!-- Warnings -->
+    <color name="nordSuccess">#A3BE8C</color> <!-- Success -->
+    <color name="nordUncommon">#B48EAD</color> <!-- Uncommon -->
+
+
 </resources>
