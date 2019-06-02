@@ -1,6 +1,6 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="DayNight" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="DayNight" parent="Theme.AppCompat.DayNight.NoActionBar">
 
         <!-- Customize your theme here. -->
         <!-- Set colours -->
@@ -10,7 +10,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Light" parent="Theme.AppCompat.Light.NoActionBar">
 
         <!-- Customize your theme here. -->
         <!-- Set colours -->
@@ -20,7 +20,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="Dark" parent="Theme.MaterialComponents.NoActionBar">
+    <style name="Dark" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
         <!-- Set colours -->
         <item name="android:statusBarColor">@color/transparent</item>
@@ -29,7 +29,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="NordTheme" parent="Theme.MaterialComponents.NoActionBar">
+    <style name="NordTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
         <!-- Set colours -->
         <item name="android:statusBarColor">@color/transparent</item>

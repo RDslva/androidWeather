@@ -18,6 +18,9 @@
     <string name="label_visibility">Visibility</string>
 
 
+
+    <!-- Settings related strings -->
+    <string name="settings_pickTheme">Pick a Theme</string>
     <!-- Open Source Credits -->
     <string name="label_openSource">Open Source Projects:
         Google Material Icons

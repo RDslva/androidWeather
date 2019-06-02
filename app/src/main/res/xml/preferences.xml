@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/preferences_listOfThemes"
+        android:entryValues="@array/preferences_listOfThemes_Values"
+        android:key="preferences_selectedTheme"
+        android:dialogTitle="@string/settings_pickTheme"
+        android:title="Theme" />
+</PreferenceScreen>

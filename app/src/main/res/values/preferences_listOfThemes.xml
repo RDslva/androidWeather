@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_listOfThemes">
+        <item>Automatic</item>
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Nord</item>
+    </string-array>
+    <string-array name="preferences_listOfThemes_Values">
+        <item>@style/DayNight</item>
+        <item>@style/Light</item>
+        <item>@style/Dark</item>
+        <item>@style/NordTheme</item>
+    </string-array>
+</resources>
